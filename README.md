@@ -1,4 +1,4 @@
-# SmallestTemplateEngine for PHP (just 135 Characters)
+# SmallestTemplateEngine for PHP (just ~132 Characters)
 
 # CLASS
 > class T{public $p;function v($f,$d=[]){foreach($d as $k=>$v){$$k=$v;}ob_start();require($this->p.$f.'.php');return ob_get_clean();}}
