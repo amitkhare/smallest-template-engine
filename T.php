@@ -2,12 +2,12 @@
 // URL : https://github.com/amitkhare/SmallestTemplateEngine
 // ### USAGE ###
 // $theme = new T();
-// $theme->p = __DIR__."/../resources/";
+// $theme->p = __DIR__."/../resources/";  // path
 // $data = [
 //     'var1'=>'value1',
 //     'var2'=>'value2'
 // ];
-// echo $theme->v('templates/header',$data);
+// echo $theme->v('templates/header',$data);  // $data variable is optional
 // echo $theme->v('views/pages/home',$data);
 // echo $theme->v('templates/footer',$data);
 
