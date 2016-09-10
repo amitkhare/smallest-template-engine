@@ -31,12 +31,12 @@
 
 # in Template Views
 
-> <!DOCTYPE HTML>
->  <html>
->  <head>
->      <title><?php echo $title; ?></title>
->  </head>
->  <body>
->      <?php echo $var1; ?>
->  </body>
->  </html>
+>	<!DOCTYPE HTML>
+    <html>
+    <head>
+        <title><?php echo $title; ?></title>
+    </head>
+    <body>
+        <?php echo $var1; ?>
+    </body>
+    </html>
