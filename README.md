@@ -9,7 +9,7 @@
 > $theme = new T();
 
 // set template path
-> $theme-p = __DIR__."/resources/";
+> $theme-p = __ DIR __."/resources/";
 
 
 // assign variables in array and access them in view file
