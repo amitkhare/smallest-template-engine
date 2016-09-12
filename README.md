@@ -13,7 +13,7 @@ class T{public $p;function v($f,$d=[]){foreach($d as $k=>$v){$$k=$v;}ob_start();
 $theme = new T();
 
 // set template path
-$theme-p = __ DIR __."/resources/";
+$theme->p = __ DIR __."/resources/";
 
 
 // assign variables in array and access them in view file
