@@ -9,6 +9,9 @@ class T{public $p;function v($f,$d=[]){foreach($d as $k=>$v){$$k=$v;}ob_start();
 ## USAGE
 
 ```sh
+// require class file
+require __DIR__.'/PATH-TO/T.php';
+
 // take an instance
 $theme = new T();
 
